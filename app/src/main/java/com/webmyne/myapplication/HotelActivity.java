@@ -1,22 +1,17 @@
 package com.webmyne.myapplication;
 
 import android.content.Intent;
-import android.graphics.Color;
 import android.os.Build;
 import android.os.Bundle;
 import android.support.v4.app.ActivityOptionsCompat;
-import android.support.v4.content.ContextCompat;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.View;
-import android.view.Window;
-import android.view.WindowManager;
 import android.widget.ImageView;
 
 public class HotelActivity extends AppCompatActivity {
 
-
-    private TouchImageView imageHotel;
+    private ImageView imageHotel;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -33,7 +28,7 @@ public class HotelActivity extends AppCompatActivity {
 
     private void initi() {
 
-        imageHotel = (TouchImageView) findViewById(R.id.imageHotel);
+        imageHotel = (ImageView) findViewById(R.id.imageHotel);
 
 
         clickListener();
