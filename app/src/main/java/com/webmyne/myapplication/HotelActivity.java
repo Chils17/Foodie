@@ -16,7 +16,7 @@ import android.widget.ImageView;
 public class HotelActivity extends AppCompatActivity {
 
 
-    private ImageView imageHotel;
+    private TouchImageView imageHotel;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -33,7 +33,7 @@ public class HotelActivity extends AppCompatActivity {
 
     private void initi() {
 
-        imageHotel = (ImageView) findViewById(R.id.imageHotel);
+        imageHotel = (TouchImageView) findViewById(R.id.imageHotel);
 
 
         clickListener();
