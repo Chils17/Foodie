@@ -12,5 +12,4 @@ public class FullScreenActivity extends AppCompatActivity {
 
     }
 
-
 }
