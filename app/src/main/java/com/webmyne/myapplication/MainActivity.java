@@ -13,6 +13,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     private Button btn_item;
     private Button btn_hotel;
     private Button btn_demo;
+    private Button btn_profile;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -30,6 +31,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         btn_item.setOnClickListener(this);
         btn_hotel.setOnClickListener(this);
         btn_demo.setOnClickListener(this);
+        btn_profile.setOnClickListener(this);
     }
 
     private void init() {
@@ -38,6 +40,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         btn_item = (Button) findViewById(R.id.btn_item);
         btn_hotel = (Button) findViewById(R.id.btn_hotel);
         btn_demo = (Button) findViewById(R.id.btn_demo);
+        btn_profile = (Button) findViewById(R.id.btn_profile);
     }
 
     @Override
@@ -65,6 +68,10 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             case R.id.btn_demo:
                 Intent intentdemo = new Intent(getApplicationContext(), DemoActivity.class);
                 startActivity(intentdemo);
+                break;
+            case R.id.btn_profile:
+                Intent intentprofile = new Intent(getApplicationContext(), ProfileActivity.class);
+                startActivity(intentprofile);
                 break;
         }
     }

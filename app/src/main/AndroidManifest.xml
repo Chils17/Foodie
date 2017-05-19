@@ -26,7 +26,8 @@
         <activity android:name=".FoodItemActivity" />
         <activity android:name=".HotelActivity" />
         <activity android:name=".FullScreenActivity" />
-        <activity android:name=".DemoActivity"/>
+        <activity android:name=".DemoActivity" />
+        <activity android:name=".ProfileActivity"></activity>
     </application>
 
 </manifest>
