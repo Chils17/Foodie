@@ -12,6 +12,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     private Button btn_order;
     private Button btn_item;
     private Button btn_hotel;
+    private Button btn_demo;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -28,37 +29,42 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         btn_order.setOnClickListener(this);
         btn_item.setOnClickListener(this);
         btn_hotel.setOnClickListener(this);
+        btn_demo.setOnClickListener(this);
     }
 
     private void init() {
-        btn_signin=(Button)findViewById(R.id.btn_signin);
-        btn_order=(Button)findViewById(R.id.btn_order);
-        btn_item=(Button)findViewById(R.id.btn_item);
-        btn_hotel=(Button)findViewById(R.id.btn_hotel);
+        btn_signin = (Button) findViewById(R.id.btn_signin);
+        btn_order = (Button) findViewById(R.id.btn_order);
+        btn_item = (Button) findViewById(R.id.btn_item);
+        btn_hotel = (Button) findViewById(R.id.btn_hotel);
+        btn_demo = (Button) findViewById(R.id.btn_demo);
     }
 
     @Override
     public void onClick(View v) {
-        switch (v.getId())
-        {
+        switch (v.getId()) {
             case R.id.btn_signin:
-                Intent intentSign =new Intent(getApplicationContext(),LoginActivity.class);
+                Intent intentSign = new Intent(getApplicationContext(), LoginActivity.class);
                 startActivity(intentSign);
                 break;
 
             case R.id.btn_order:
-                Intent intentOrder =new Intent(getApplicationContext(),OrderActivity.class);
+                Intent intentOrder = new Intent(getApplicationContext(), OrderActivity.class);
                 startActivity(intentOrder);
                 break;
 
             case R.id.btn_item:
-                Intent intentItem =new Intent(getApplicationContext(),FoodItemActivity.class);
+                Intent intentItem = new Intent(getApplicationContext(), FoodItemActivity.class);
                 startActivity(intentItem);
                 break;
 
             case R.id.btn_hotel:
-                Intent intenthotel =new Intent(getApplicationContext(),HotelActivity.class);
+                Intent intenthotel = new Intent(getApplicationContext(), HotelActivity.class);
                 startActivity(intenthotel);
+                break;
+            case R.id.btn_demo:
+                Intent intentdemo = new Intent(getApplicationContext(), DemoActivity.class);
+                startActivity(intentdemo);
                 break;
         }
     }
