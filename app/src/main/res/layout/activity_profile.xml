@@ -10,7 +10,7 @@
 
         <RelativeLayout
             android:layout_width="match_parent"
-            android:layout_height="match_parent">
+            android:layout_height="wrap_content">
 
             <LinearLayout
                 android:id="@+id/llImage"
@@ -21,9 +21,9 @@
                 <ImageView
                     android:id="@+id/header_cover_image"
                     android:layout_width="match_parent"
-                    android:layout_height="200dp"
+                    android:layout_height="230dp"
                     android:scaleType="centerCrop"
-                    android:src="@drawable/hotel" />
+                    android:src="@drawable/profile_back" />
 
             </LinearLayout>
 
