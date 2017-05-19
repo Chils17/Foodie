@@ -29,8 +29,8 @@
 
             <ImageButton
                 android:id="@+id/user_profile_photo"
-                android:layout_width="120dp"
-                android:layout_height="120dp"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
                 android:layout_above="@+id/profile_layout"
                 android:layout_centerHorizontal="true"
                 android:layout_marginBottom="-60dp"
@@ -106,7 +106,7 @@
                     android:clickable="true"
                     android:elevation="4dp"
                     android:padding="20dp"
-                    android:text="Android Profile UI Design" />
+                    android:text="Hotel Profile UI Design" />
 
                 <TextView
                     android:layout_width="fill_parent"
@@ -118,7 +118,7 @@
                     android:clickable="true"
                     android:elevation="4dp"
                     android:padding="20dp"
-                    android:text="Android Profile XMl UI Design" />
+                    android:text="Hotel Profile XMl UI Design" />
 
                 <TextView
                     android:layout_width="fill_parent"
@@ -128,7 +128,7 @@
                     android:clickable="true"
                     android:elevation="4dp"
                     android:padding="20dp"
-                    android:text="Android Profile UI Design" />
+                    android:text="Hotel Profile UI Design" />
 
                 <TextView
                     android:layout_width="fill_parent"
@@ -140,7 +140,7 @@
                     android:clickable="true"
                     android:elevation="4dp"
                     android:padding="20dp"
-                    android:text="Android Profile XMl UI Design" />
+                    android:text="Hotel Profile XMl UI Design" />
 
                 <TextView
                     android:layout_width="fill_parent"
@@ -150,7 +150,7 @@
                     android:clickable="true"
                     android:elevation="4dp"
                     android:padding="20dp"
-                    android:text="Android Profile UI Design" />
+                    android:text="Hotel Profile UI Design" />
 
             </LinearLayout>
 
